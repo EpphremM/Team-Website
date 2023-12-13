@@ -1,4 +1,6 @@
-
+.main-footer{
+    background-color: transparent;
+}
 
 .footer-container{
     width: 98%;
@@ -49,5 +51,6 @@
 
 .footer-socials-group li a i{
     color: rgb(255, 248, 32);
+    font-size: 1.2rem;
 }
 
