@@ -1,15 +1,11 @@
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .header{
-    height: 18em;
     width: 98%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(17, 28, 25);
-    border-radius: 0px 0px 10px 10px; ;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 5em;
 }
 .header-container{
     padding-top: 1.2em;
@@ -60,13 +56,11 @@ margin-left: 1.5em;
   
     }
 .sample-text{
-
 }
 .text{
-    align-self: center;
     width: 20em;
     text-align: center;
-    margin-top: 2em;
+    padding-top: 2em;
     color: white;
     font-size: 3rem;
     margin-left: 6em;
