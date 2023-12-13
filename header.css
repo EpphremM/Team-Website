@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 18em;
+    background-color: rgb(43, 66, 66);
+}
+.header-container{
+    padding-top: 1.2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+   
+
+}
+.header-logo{
+    margin-left: 3em;
+    color: white;
+    font-size: 2rem;
+}
+.header-nav-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+.header-nav-container li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+}
+.sign-container{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+}
+.sign-in-btn,.sign-up-btn{
+
+    width: 10em;
+    height: 2em;
+    background-color: darkcyan;
+}
+.sample-text{
+
+}
+.text{
+    align-self: center;
+    width: 20em;
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    font-size: 3rem;
+    margin-left: 6em;
+
+    
+}
