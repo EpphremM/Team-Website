@@ -7,6 +7,9 @@
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 5em;
 }
+.header button{
+    cursor: pointer;
+}
 .header-container{
     padding-top: 1.2em;
     display:grid;
