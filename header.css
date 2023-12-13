@@ -5,41 +5,60 @@
 }
 .header{
     height: 18em;
-    background-color: rgb(43, 66, 66);
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(17, 28, 25);
+    border-radius: 0px 0px 10px 10px; ;
 }
 .header-container{
     padding-top: 1.2em;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: end;
-   
+    align-items: center;
 
 }
 .header-logo{
     margin-left: 3em;
-    color: white;
+    color: rgba(0, 255, 128);
+    font-weight: bold;
     font-size: 2rem;
 }
 .header-nav-list{
+
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
+    align-items: center;
 }
 .header-nav-container li a{
     font-size: 1.1rem;
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 .sign-container{
-   display:grid;
-   grid-template-columns: 1fr 1fr;
+    margin-left: 6em;
 }
-.sign-in-btn,.sign-up-btn{
-
+.btn{
+    height: 2.7em;
+    background: linear-gradient(to right, rgba(0, 255, 128),rgba(255, 248, 32));
+    font-weight: bold;
+    color: rgb(17, 28, 25);
+    border-radius: 6px;
+    border-style: none;
     width: 10em;
-    height: 2em;
-    background-color: darkcyan;
+    width: 10em;
 }
+.sign-up-btn{
+margin-left: 1.5em;
+
+}
+.sign-in-btn{
+    margin-left: 1em;
+  
+    }
 .sample-text{
 
 }
@@ -51,6 +70,4 @@
     color: white;
     font-size: 3rem;
     margin-left: 6em;
-
-    
 }
