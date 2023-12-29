@@ -35,7 +35,7 @@
     font-size: 1.1rem;
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
 }
 .sign-container{
     margin-left: 6em;
@@ -58,6 +58,24 @@ margin-left: 1.5em;
     margin-left: 1em;
   
     }
+
+    .sign-container button{
+        animation: none;
+        transition: 0.2 linear;
+    }
+
+.sign-container button:hover{
+    animation: colorRotate 3s infinite linear;
+}
+
+@keyframes colorRotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
 .sample-text{
 }
 .text{
