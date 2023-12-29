@@ -29,7 +29,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
-    align-items: center;
+    place-items: center;
 }
 .header-nav-container li a{
     font-size: 1.1rem;
@@ -85,4 +85,39 @@ margin-left: 1.5em;
     color: white;
     font-size: 3rem;
     margin-left: 6em;
+}
+.home-link{
+    position: relative;
+}
+.about-drop-down{
+    position:absolute;
+    background-color: rgba(0, 255, 128);
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+    border-radius: 5px;
+   left: 50%;
+   transform: translateX(-50%);
+   
+    box-shadow: 2px 2px 6px;
+   
+}
+
+.list{
+    position: relative;
+}
+.team{
+margin-top: 0;
+}
+.about-link{
+    color: black !important;
+}
+.about-links{
+    color: rgb(255, 255, 255) !important;
+    /* text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center; */
+}
+.about-drop{
 }
