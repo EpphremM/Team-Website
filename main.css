@@ -137,15 +137,15 @@
 
 
 .horizontal-link-bar .line{
-    border: solid rgb(0, 255, 128);
+    border: solid rgb(17, 28, 25);
     border-width: 1px;
     height: 20vh;
     width: 3px;
-    background-color: rgb(0, 255, 128);
+    background-color: rgb(17, 28, 25);
 }
 
 .horizon-link > i{
-    color: rgb(0, 255, 128) !important;
+    color: rgb(17, 28, 25) !important;
 }
 
 .horizontal-link-bar{
