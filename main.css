@@ -32,6 +32,8 @@
    color: rgb(17, 28, 25);
 }
 
+
+
 .why-us-card-para{
     margin-top: 0.7em;
 }
@@ -70,6 +72,7 @@
 
 .deco-text-content{
     width: 60%;
+    position: relative;
 }
 
 
@@ -90,10 +93,26 @@
 }
 
 .reviews-card{
+    position: relative;
     border-radius: 5px;
     padding: 2em;
     color: rgb(17, 28, 25);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.115);
+}
+
+.show{
+    animation: show-anim 2s 1 cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes show-anim{
+    0%{
+        left: -100px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 100%;
+    }
 }
 .reviews-card:nth-child(1){
     background-color: white;
@@ -116,3 +135,25 @@
     background-color: white;
 }
 
+
+.horizontal-link-bar .line{
+    border: solid rgb(0, 255, 128);
+    border-width: 1px;
+    height: 20vh;
+    width: 3px;
+    background-color: rgb(0, 255, 128);
+}
+
+.horizon-link > i{
+    color: rgb(0, 255, 128) !important;
+}
+
+.horizontal-link-bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0px;
+    left: 20px;
+    z-index: 1000;
+}
