@@ -11,25 +11,33 @@
     cursor: pointer;
 }
 .header-container{
+    margin: 0 2em;
     padding-top: 1.2em;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: end;
-    align-items: center;
+    grid-template-columns: 20% 50% 30%;
+    /* justify-content: end; */
+    place-items: center;
+    /* align-items: center; */
 
 }
 .header-logo{
-    margin-left: 3em;
+    
     color: rgba(0, 255, 128);
     font-weight: bold;
     font-size: 2rem;
 }
+.header-nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .header-nav-list{
 
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
     list-style: none;
-    place-items: center;
+    align-items: center;
 }
 .header-nav-container li a{
     font-size: 1.1rem;
@@ -38,7 +46,11 @@
     font-weight: 400;
 }
 .sign-container{
-    margin-left: 6em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    /* margin-left: 6em; */
 }
 .btn{
     height: 2.7em;
@@ -47,15 +59,12 @@
     color: rgb(17, 28, 25);
     border-radius: 6px;
     border-style: none;
-    width: 10em;
-    width: 10em;
+    width: 70%;
 }
 .sign-up-btn{
-margin-left: 1.5em;
 
 }
 .sign-in-btn{
-    margin-left: 1em;
   
     }
 
@@ -79,12 +88,11 @@ margin-left: 1.5em;
 .sample-text{
 }
 .text{
-    width: 20em;
     text-align: center;
-    padding-top: 2em;
+    padding: 2em 1em 0 1em;
     color: white;
     font-size: 3rem;
-    margin-left: 6em;
+    margin: 0 auto;
 }
 .home-link{
     position: relative;
